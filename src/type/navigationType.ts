@@ -13,3 +13,9 @@ export type MainStackNavigationType = {
     MainMain: undefined;
     MainChallenge: undefined;
 }
+
+export type NewsStackNavigationType = {
+    NewsNews: undefined;
+    NewsNewsList: undefined;
+    NewsNewsMore: undefined;
+}
