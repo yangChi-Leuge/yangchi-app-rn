@@ -4,10 +4,10 @@ import { Height, Width } from "../../styles/demention.ts";
 import { NavigationProp } from "@react-navigation/native";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-const GoBackButton = ({navigation, color = "white"} : {navigation : NavigationProp<any>, color? : string}) => {
+const GoBackButton = ({navigation} : {navigation : NavigationProp<any>}) => {
     return (
         <View style={styless.container}>
-            <Text onPress={() => navigation.goBack()} style={{fontWeight: "500", fontSize: Width/20, color: color}}>← 돌아가기</Text>
+            <Text onPress={() => navigation.goBack()} style={{fontWeight: "500", fontSize: Width/20, color: "white"}}>← 돌아가기</Text>
         </View>
     );
 }
